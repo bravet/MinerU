@@ -21,7 +21,7 @@ jobs:
         
     - name: Add upstream remote
       run: |
-        git remote add upstream https://github.com:opendatalab/MinerU.git
+        git remote add upstream git@github.com:opendatalab/MinerU.git
         
     - name: Fetch upstream
       run: |
