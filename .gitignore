@@ -1,5 +1,6 @@
 *.tar
 *.tar.gz
+*.zip
 venv*/
 envs/
 slurm_logs/
@@ -14,6 +15,12 @@ __pycache__
 debug/
 *.ipynb
 .idea
+
+# Python build artifacts
+*.egg-info/
+build/
+dist/
+*.egg
 
 # vscode history
 .history
@@ -30,10 +37,23 @@ tmp/
 tmp
 .vscode
 .vscode/
-/tests/
 ocr_demo
-
+.coveragerc
 /app/common/__init__.py
 /magic_pdf/config/__init__.py
 source.dev.env
 
+tmp
+
+projects/web/node_modules
+projects/web/dist
+
+projects/web_demo/web_demo/static/
+cli_debug/
+debug_utils/
+
+# sphinx docs
+_build/
+
+
+output/
